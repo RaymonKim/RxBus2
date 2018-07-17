@@ -55,7 +55,6 @@ public class LeftMenuFragment extends Fragment {
         });
     }
 
-
     @Subscribe(eventTag = EventType.TAG.LEFT_MENU)
     public void receiveLeft(ArrayList arrayList) {
         mTextContent.append("This message came from Middle : " + arrayList + "\n");
